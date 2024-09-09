@@ -1,24 +1,28 @@
 <script setup lang="ts">
+import AppEmojiContainer from '@/components/AppEmojiContainer.vue';
 import AppTiptap from '@/components/AppTiptap.vue';
-
 
 </script>
 
 <template>
   <div class="main-container">
     <div class="field-container">
-      <AppTiptap/>
+      <AppEmojiContainer />
+      <AppTiptap />
     </div>
   </div>
 </template>
 
 <style scoped>
 .field-container {
-  width: 60%;
+  width: 80%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.267);
   border: 2px solid black;
   margin-top: 20px;
+  display: flex;
 }
+
 .main-container {
   width: 100%;
   height: 100%;

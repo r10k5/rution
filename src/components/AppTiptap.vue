@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useEditor, EditorContent, BubbleMenu, Editor } from '@tiptap/vue-3'
+import { useEditor, EditorContent, BubbleMenu } from '@tiptap/vue-3'
 import StarterKit from '@tiptap/starter-kit'
 import TipTapColor from '@tiptap/extension-color'
 import { onBeforeUnmount } from 'vue';
