@@ -1,5 +1,5 @@
 <template>
-    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect width="48" height="48" fill="url(#pattern0_2_6)"/>
     <defs>
     <pattern id="pattern0_2_6" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -9,9 +9,3 @@
     </defs>
     </svg>
 </template>
-
-<script lang="ts">
-export default {
-    name: 'IconCube',
-};
-</script>

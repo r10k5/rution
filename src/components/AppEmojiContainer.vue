@@ -1,11 +1,14 @@
 <template>
-  <div class="emoji-container">
-    <component :is="emoji.cube" />
-  </div>
+    <div class="emoji-container">
+        <component v-for="emoji in emojiToRender" :is="emoji" class="emojies"/>
+    </div>
 </template>
-
+  
 <script setup lang="ts">
-import { emoji } from './AppEmoji';
+import IconCube from '@/styles/icons/IconCube.vue';
+import IconCat from '@/styles/icons/IconCat.vue';
+  
+const emojiToRender = [IconCube, IconCat];
 </script>
 
 <style scoped>
@@ -13,7 +16,14 @@ import { emoji } from './AppEmoji';
   height: 100%;
   width: auto;
   padding: 8px;
+  gap: 20px;
   background-color: rgba(0, 0, 0, 0.427);
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.emojies {
+    width:48px;
+    height: 48px;
 }
 </style>
