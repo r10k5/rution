@@ -7,8 +7,9 @@
 <script setup lang="ts">
 import IconCube from '@/styles/icons/IconCube.vue';
 import IconCat from '@/styles/icons/IconCat.vue';
-  
-const emojiToRender = [IconCube, IconCat];
+import DragonFace from '@/styles/icons/DragonFace.vue';
+
+const emojiToRender = [IconCube, IconCat, DragonFace];
 </script>
 
 <style scoped>

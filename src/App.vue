@@ -7,7 +7,11 @@ import AppHeader from './components/AppHeader.vue'
   <AppHeader class="header"/>
   <div class="root">
     <RouterView />
+    <div class="tab">
+    <button class = "tablinks" >Mатематика</button>
   </div>
+  </div>
+  
 </template>
 
 <style scoped>
@@ -21,5 +25,9 @@ import AppHeader from './components/AppHeader.vue'
   background-color: #363636;
   display: flex; 
   gap: 166px;
+}
+.tablinks{
+  width: 14vw;
+  
 }
 </style>
